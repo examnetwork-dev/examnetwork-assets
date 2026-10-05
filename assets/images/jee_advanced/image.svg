@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 280" width="300" height="280">
+  <defs>
+    <style>
+      .tri { fill: #f8fafc; stroke: #1e293b; stroke-width: 2.5; }
+      .coin { fill: #e0f2fe; stroke: #0284c7; stroke-width: 2; }
+      .txt { font-family: sans-serif; font-size: 14px; font-weight: bold; fill: #0f172a; text-anchor: middle; }
+    </style>
+  </defs>
+  <!-- Equilateral triangle vertices: (150, 20), (20, 250), (280, 250) -->
+  <polygon points="150,20 20,250 280,250" class="tri" />
+  <!-- Three mutually tangent coins (circles) -->
+  <!-- Bottom-left circle: center (105, 195), r=45 -->
+  <circle cx="105" cy="195" r="45" class="coin" />
+  <!-- Bottom-right circle: center (195, 195), r=45 -->
+  <circle cx="195" cy="195" r="45" class="coin" />
+  <!-- Top circle: center (150, 117), r=45 -->
+  <circle cx="150" cy="117" r="45" class="coin" />
+  <!-- Center dots -->
+  <circle cx="105" cy="195" r="3" fill="#0284c7" />
+  <circle cx="195" cy="195" r="45" r="3" fill="#0284c7" />
+  <circle cx="150" cy="117" r="3" fill="#0284c7" />
+  <!-- Labels -->
+  <text x="150" y="15" class="txt">A</text>
+  <text x="15" y="265" class="txt">B</text>
+  <text x="285" y="265" class="txt">C</text>
+</svg>
